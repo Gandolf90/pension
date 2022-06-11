@@ -11,7 +11,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   #background: #170ec1;
-  background: #ffceb3;
+  background: #b2b2b2;
   color: #000;
 }
 
@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #ffecce;
+  background: #575756;
 }
 
 #preloader:before {
@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #ffecce;
+  border: 6px solid #575756;
   border-top-color: #000000;
   border-bottom-color: #000000;
   border-radius: 50%;
@@ -98,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .back-to-top:hover {
   background: #000000;
-  color: #ffecce;
+  color: #575756;
 }
 .back-to-top:hover i {
   color: #444444;
@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #topbar .contact-info i {
   font-style: normal;
-  color: #ffed00;
+  color: #94c356;
 }
 #topbar .contact-info i span {
   padding-left: 5px;
@@ -161,7 +161,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: rgba(255, 206, 179, 0.6);
+  background: rgba(178, 178, 178, 0.6);
   border-bottom: 1px solid rgba(12, 11, 9, 0.6);
   transition: all 0.5s;
   z-index: 997;
@@ -170,11 +170,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 #header.header-scrolled {
   top: 0;
-  background: rgba(255, 206, 179, 0.85);
+  background: rgba(178, 178, 178, 0.85);
   border-bottom: 1px solid #37332a;
 }
 #header .logo {
-  font-size: 28px;
+  font-size: 23px;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -208,7 +208,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .book-a-table-btn:hover {
   background-color: transparent;
-  color: #000;
+  color: #94c356;
 }
 @media (max-width: 992px) {
   .book-a-table-btn {
@@ -252,7 +252,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #ffed00;
+  color: #94c356;
 }
 .navbar .dropdown ul {
   display: block;
@@ -360,7 +360,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #ffecce;
+  color: #575756;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
   color: #000000;
@@ -401,7 +401,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/Eiscafe-26.JPG") top center;
+  background: url("../img/start.jpg") top center;
   background-size: cover;
   position: relative;
   padding: 0;
@@ -420,14 +420,14 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #000;
+  color: #797979;
   font-family: "Poppins", sans-serif;
 }
 #hero h1 span {
-  color: #000000;
+  color: #797979;
 }
 #hero h2 {
-  color: #000;
+  color: #797979;
   margin-bottom: 10px 0 0 0;
   font-size: 22px;
 }
@@ -435,7 +435,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 30px;
 }
 #hero .btn-menu, #hero .btn-book {
-  background: #ffed00;
+  background: #94c356;
   font-weight: 600;
   font-size: 13px;
   letter-spacing: 0.5px;
@@ -446,7 +446,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
   line-height: 1;
   color: black;
-  border: 2px solid #ffed00;
+  border: 2px solid #94c356;
 }
 #hero .btn-menu:hover, #hero .btn-book:hover {
   background-color: transparent;
@@ -581,7 +581,7 @@ section {
 }
 
 .section-bg {
-  background-color: #ffecce;
+  background-color: #575756;
 }
 
 .section-title {
@@ -595,7 +595,7 @@ section {
   margin: 0 0 5px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #aaaaaa;
+  color: #000;
   font-family: "Poppins", sans-serif;
 }
 .section-title h2::after {
@@ -620,12 +620,12 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: #ffecce;
+  background: #575756;
   margin-top: 110px;
 }
 .inner-page {
   padding: 15px 0;
-  background: #ffecce;
+  background: #575756;
 }
 @media (max-width: 992px) {
   .breadcrumbs {
@@ -676,7 +676,7 @@ section {
 }
 .about:before {
   content: "";
-  background: rgba(255, 236, 206, 0.8);
+  background: rgba(87, 87, 86, 0.8);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -759,7 +759,7 @@ section {
   padding: 50px 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   transition: all ease-in-out 0.3s;
-  background: #ffecce;
+  background: #575756;
 }
 .why-us .box span {
   display: block;
@@ -781,7 +781,7 @@ section {
   padding: 0;
 }
 .why-us .box:hover {
-  background: #ffceb3;
+  background: #b2b2b2;
   padding: 30px 30px 70px 30px;
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
@@ -813,7 +813,7 @@ section {
   font-family: "Playfair Display", serif;
 }
 .menu #menu-flters li:hover, .menu #menu-flters li.filter-active {
-  color: #ffceb3;
+  color: #b2b2b2;
 }
 .menu #menu-flters li:last-child {
   margin-right: 0;
@@ -846,7 +846,7 @@ section {
 }
 .menu .menu-content a {
   padding-right: 10px;
-  background: #ffecce;
+  background: #575756;
   position: relative;
   z-index: 3;
   font-weight: 700;
@@ -857,7 +857,7 @@ section {
   color: #000000;
 }
 .menu .menu-content span {
-  background: #ffecce;
+  background: #575756;
   position: relative;
   z-index: 3;
   padding: 0 10px;
@@ -887,20 +887,20 @@ section {
   transition: 0.3s;
   color: #000;
   border-radius: 0;
-  border-right: 2px solid #ffecce;
+  border-right: 2px solid #575756;
   font-weight: 600;
   font-size: 15px;
 }
 .specials .nav-link:hover {
-  color: #ffecce;
+  color: #575756;
 }
 .specials .nav-link.active {
   color: #000;
-  background: #ffecce;
-  border-color: #ffecce;
+  background: #575756;
+  border-color: #575756;
 }
 .specials .nav-link:hover {
-  border-color: #ffecce;
+  border-color: #575756;
 }
 .specials .tab-pane.active {
   -webkit-animation: fadeIn 0.5s ease-out;
@@ -929,13 +929,13 @@ section {
 # Events
 --------------------------------------------------------------*/
 .events {
-  background: url(../img/events-bg.jpg) center center no-repeat;
+  background-color: #575756;
   background-size: cover;
   position: relative;
 }
 .events::before {
   content: "";
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(87, 87, 86, 0.8);
   position: absolute;
   top: 0;
   right: 0;
@@ -943,7 +943,7 @@ section {
   bottom: 0;
 }
 .events .section-title h2 {
-  color: #fff;
+  color: #000;
 }
 .events .container {
   position: relative;
@@ -1050,8 +1050,8 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #000000;
-  border-top-color: #ffecce;
+  border: 3px solid #94c356;
+  border-top-color: #575756;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
 }
@@ -1059,7 +1059,7 @@ section {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
-  background: #ffceb3;
+  background: #b2b2b2;
   border-color: #625b4b;
   color: white;
 }
@@ -1079,7 +1079,7 @@ section {
   padding: 10px 12px;
 }
 .book-a-table .php-email-form button[type=submit] {
-  background: #000000;
+  background: #94c356;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1087,7 +1087,7 @@ section {
   border-radius: 50px;
 }
 .book-a-table .php-email-form button[type=submit]:hover {
-  background: #d3af71;
+  background: #b2b2b2;
 }
 
 /*--------------------------------------------------------------
@@ -1158,11 +1158,15 @@ section {
   background-color: #000000;
 }
 
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: 0px;
+}
+
 /*--------------------------------------------------------------
 # Gallery
 --------------------------------------------------------------*/
 .gallery {
-  background-color: #ffecce;
+  background-color: #575756;
 }
 
 .gallery .gallery-item {
@@ -1255,7 +1259,7 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact {
-background-color: #ffecce;
+background-color: #575756;
 
 }
 
@@ -1267,7 +1271,7 @@ background-color: #ffecce;
   float: left;
   width: 44px;
   height: 44px;
-  background: #ffceb3;
+  background: #b2b2b2;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1332,7 +1336,7 @@ background-color: #ffecce;
   height: 24px;
   margin: 0 10px -6px 0;
   border: 3px solid #000000;
-  border-top-color: #ffecce;
+  border-top-color: #575756;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
 }
@@ -1340,7 +1344,7 @@ background-color: #ffecce;
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
-  background: #ffecce;
+  background: #575756;
   border-color: #625b4b;
   color: white;
 }
@@ -1368,7 +1372,7 @@ background-color: #ffecce;
   border-radius: 50px;
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: #ffecce;
+  background: #575756;
 }
 @-webkit-keyframes animate-loading {
   0% {
@@ -1391,13 +1395,13 @@ background-color: #ffecce;
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #ffceb3c;
+  background: #b2b2b2c;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
 }
 #footer .footer-top {
-  background: #ffceb3;
+  background: #b2b2b2;
   border-top: 1px solid #37332a;
   border-bottom: 1px solid #28251f;
   padding: 60px 0 30px 0;
