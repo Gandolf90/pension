@@ -7,7 +7,7 @@
   */
 
   // Replace contact@example.com with your real receiving email address
-  $receiving_email_address = 'contact@example.com';
+  $receiving_email_address = 'info@privat-pension-schwarzach.de';
 
   if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
     include( $php_email_form );
@@ -21,7 +21,7 @@
   $book_a_table->to = $receiving_email_address;
   $book_a_table->from_name = $_POST['name'];
   $book_a_table->from_email = $_POST['email'];
-  $book_a_table->subject = "New table booking request from the website";
+  $book_a_table->subject = "Neue Reservierung für ihre Pension";
 
   // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
   /*
@@ -33,13 +33,15 @@
   );
   */
 
-  $book_a_table->add_message( $_POST['name'], 'Name');
+  $book_a_table->add_message( $_POST['vorname'], 'Vorname');
+  $book_a_table->add_message( $_POST['nachname'], 'Nachname');
   $book_a_table->add_message( $_POST['email'], 'Email');
   $book_a_table->add_message( $_POST['phone'], 'Phone', 4);
-  $book_a_table->add_message( $_POST['date'], 'Date', 4);
-  $book_a_table->add_message( $_POST['time'], 'Time', 4);
-  $book_a_table->add_message( $_POST['people'], '# of people', 1);
-  $book_a_table->add_message( $_POST['message'], 'Message');
+  $book_a_table->add_message( $_POST['anreise'], 'Anreise', 4);
+  $book_a_table->add_message( $_POST['abreise'], 'Abreise', 4);
+  $book_a_table->add_message( $_POST['personen'], 'personen', 1);
+  $book_a_table->add_message( $_POST['zimmer'], 'Zimmer');
+  $book_a_table->add_message( $_POST['nachricht'], 'Nachricht');
 
   echo $book_a_table->send();
 ?>
