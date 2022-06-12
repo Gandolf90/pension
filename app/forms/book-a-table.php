@@ -19,7 +19,7 @@
   $book_a_table->ajax = true;
   
   $book_a_table->to = $receiving_email_address;
-  $book_a_table->from_name = $_POST['name'];
+  $book_a_table->from_name = $_POST['vorname'];
   $book_a_table->from_email = $_POST['email'];
   $book_a_table->subject = "Neue Reservierung für ihre Pension";
 
@@ -36,7 +36,7 @@
   $book_a_table->add_message( $_POST['vorname'], 'Vorname');
   $book_a_table->add_message( $_POST['nachname'], 'Nachname');
   $book_a_table->add_message( $_POST['email'], 'Email');
-  $book_a_table->add_message( $_POST['phone'], 'Phone', 4);
+  $book_a_table->add_message( $_POST['telefon'], 'Phone');
   $book_a_table->add_message( $_POST['anreise'], 'Anreise', 4);
   $book_a_table->add_message( $_POST['abreise'], 'Abreise', 4);
   $book_a_table->add_message( $_POST['personen'], 'personen', 1);
