@@ -21,7 +21,7 @@ a {
 }
 
 a:hover {
-  color: #d9ba85;
+  color: #94c356;
   text-decoration: none;
 }
 
@@ -669,14 +669,20 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background: url("../img/Eiscafe-11.JPG") center center;
+  background-color: #575756;
   background-size: cover;
   position: relative;
   padding: 80px 0;
 }
+
+/*background: rgba(87, 87, 86, 0.8);*/
+
+.about-light {
+  background-color: #b2b2b2;
+}
 .about:before {
   content: "";
-  background: rgba(87, 87, 86, 0.8);
+
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1061,7 +1067,7 @@ section {
   font-size: 14px;
   background: #b2b2b2;
   border-color: #625b4b;
-  color: white;
+  color: #a49b89;
 }
 .book-a-table .php-email-form input::-moz-placeholder, .book-a-table .php-email-form textarea::-moz-placeholder {
   color: #a49b89;
@@ -1120,7 +1126,7 @@ section {
   margin: 0 0 0 45px;
 }
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
-  color: #d3af71;
+  color: #94c356;
   font-size: 26px;
 }
 .testimonials .testimonial-item .quote-icon-left {
@@ -1259,8 +1265,7 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact {
-background-color: #575756;
-
+background-color: #b2b2b2;
 }
 
 .contact .info {
@@ -1392,16 +1397,32 @@ background-color: #575756;
 }
 
 /*--------------------------------------------------------------
+# Select
+ -------------------------------------------------------------*/
+
+select {
+  word-wrap: normal;
+  height: 44px;
+  width: 100%;
+  background-color: #b2b2b2;
+  color: #a49b89;
+}
+
+.impressum {
+  background-color: #b2b2b2;
+}
+
+/*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #b2b2b2c;
+  background: #575756;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
 }
 #footer .footer-top {
-  background: #b2b2b2;
+  background: #575756;
   border-top: 1px solid #37332a;
   border-bottom: 1px solid #28251f;
   padding: 60px 0 30px 0;
@@ -1512,7 +1533,7 @@ background-color: #575756;
   border-radius: 50px;
 }
 #footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: #d3af71;
+  background: #94c356;
 }
 #footer .copyright {
   text-align: center;
