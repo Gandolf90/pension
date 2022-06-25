@@ -1,7 +1,7 @@
 version: '3.3'
 services:
   run:
-    image: gandolf90/portfolio:latest
+    image: gandolf90/pension:latest
     ports:
       - '80:80'
     container_name: 'web'

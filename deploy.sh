@@ -39,12 +39,12 @@ DeployLive () {
 
 	docker login
 
-	echo "docker buildx build --platform linux/amd64,linux/arm64 -f .docker/Dockerfile --push -t gandolf90/bellagina:$Version ."
-  docker buildx build --platform linux/amd64,linux/arm64 -f .docker/Dockerfile --push -t gandolf90/bellagina:$Version .
+	echo "docker buildx build --platform linux/amd64,linux/arm64 -f .docker/Dockerfile --push -t gandolf90/pension:$Version ."
+  docker buildx build --platform linux/amd64,linux/arm64 -f .docker/Dockerfile --push -t gandolf90/pension:$Version .
 
   echo ""
-  echo "docker buildx build --platform linux/amd64,linux/arm64 -f .docker/Dockerfile --push -t gandolf90/bellagina:latest ."
-  docker buildx build --platform linux/amd64,linux/arm64 -f .docker/Dockerfile --push -t gandolf90/bellagina:latest .
+  echo "docker buildx build --platform linux/amd64,linux/arm64 -f .docker/Dockerfile --push -t gandolf90/pension:latest ."
+  docker buildx build --platform linux/amd64,linux/arm64 -f .docker/Dockerfile --push -t gandolf90/pension:latest .
 
 }
 
